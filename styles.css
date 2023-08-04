@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the testimonial section */
+.testimonial-section {
+  background-color: #f5f5f5; /* Background color */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style for the testimonial content */
+.testimonial-content {
+  max-width: 600px; /* Limit the width of the testimonial content */
+  margin: 0 auto; /* Center the content */
+  text-align: center; /* Center the text */
+}
+
+/* Style for the testimonial text */
+.content {
+	margin-top:10px;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+	text-align:left;
+	background-color:white;
+}
+
+/* Style for the testimonial author */
+.testimonial-author {
+  font-size: 10px;
+	text-align:right;
+}
+
